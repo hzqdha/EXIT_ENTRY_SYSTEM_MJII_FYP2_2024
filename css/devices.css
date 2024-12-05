@@ -1,0 +1,84 @@
+
+h1{
+  font-size: 28px !important;
+  color: #000000; 
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif !important;
+  text-align: center;
+  margin: 15px !important;
+}
+th{
+  padding: 15px;
+  text-align: center !important;
+  font-weight: 500;
+  font-size: 19px;
+  color: #000000; 
+}
+td{
+  padding: 15px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 17px;
+  color: black; /* Normal color */
+  border-bottom: solid 2px rgba(0,0,0,0.1); /* Changed to match black text */
+}
+section {
+  display: block;
+  margin: 20px auto;
+}
+.panel {
+  border-color: #ce8888 !important; /* Softer red */
+}
+.panel-heading {
+  background-color: #ce8888 !important; /* Softer red */
+}
+.panel-body {
+  background-color: #ce8888 !important; /* Softer red */
+}
+
+.mode_select {
+  display: block;
+  position: relative;
+}
+.mode_select input {
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+  border: 0;
+  overflow: hidden;
+}
+
+.mode_select label {
+  background-color: #e67777; 
+  color: black; /* Normal color */
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  padding: 6px 12px;
+  margin-right: -1px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transition: all 0.1s ease-in-out;
+}
+
+.mode_select label:hover {
+  cursor: pointer;
+}
+
+.mode_select input:checked + label {
+  background-color: #e8a6a6; /* Softer red */
+  color: black; /* Normal color */
+  box-shadow: none;
+}
+
+.alert_dev {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.alert_dev_del {
+  position: absolute;
+  right: 20px;
+  height: 30px;
+}
